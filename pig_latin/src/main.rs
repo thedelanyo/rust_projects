@@ -1,3 +1,17 @@
+// This program takes a sentence as input and converts each word into Pig Latin.
+
+// Pig Latin rules:
+// 1. If a word starts with a vowel, add "yay" to the end of the word.
+// 2. If a word starts with a consonant,
+//   - Move the first letter to the end of the word and add "ay".
+
+// Example:
+// Input: "Hello World"
+// Output: "elloHay orldWay"
+
+// Note: This program assumes that the input is a single sentence and does not handle punctuation or capitalization beyond the first letter.
+// For more information on Pig Latin, see: https://en.wikipedia.org/wiki/Pig_Latin.
+
 use std::io;
 
 fn main() {
